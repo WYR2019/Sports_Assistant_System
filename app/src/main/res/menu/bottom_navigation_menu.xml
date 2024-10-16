@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/devices"
+        android:icon="@drawable/round_devices_other_24"
+        android:title="设备" />
+    <item
+        android:id="@+id/sports"
+        android:icon="@drawable/round_directions_run_24"
+        android:title="运动" />
+    <item
+        android:id="@+id/records"
+        android:icon="@drawable/round_list_24"
+        android:title="运动记录" />
+    <item
+        android:id="@+id/accounts"
+        android:icon="@drawable/round_supervisor_account_24"
+        android:title="我的" />
+</menu>
