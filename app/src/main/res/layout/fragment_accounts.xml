@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragments.AccountsFragment">
+    tools:context=".Fragments.Accounts.AccountsFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <androidx.appcompat.widget.Toolbar
@@ -64,16 +64,17 @@
                 android:layout_marginBottom="10dp"
                 android:clickable="true">
                 <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="10dp" />
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/pic_usinghelp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="60dp"
+                    android:layout_marginLeft="63dp"
                     android:layout_marginTop="10dp"
                     android:text="个人资料"
                     android:textSize="18sp" />
@@ -94,14 +95,14 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginLeft="18dp"
                     android:layout_marginTop="10dp"
-                    />
+                    android:src="@drawable/pic_usinghelp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="60dp"
+                    android:layout_marginLeft="63dp"
                     android:layout_marginTop="10dp"
                     android:text="使用帮助"
                     android:textSize="18sp" />
@@ -122,14 +123,14 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginLeft="18dp"
                     android:layout_marginTop="10dp"
-                    />
+                    android:src="@drawable/pic_about"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="60dp"
+                    android:layout_marginLeft="63dp"
                     android:text="关于我们"
                     android:textSize="18sp" />
             </RelativeLayout>
@@ -149,14 +150,14 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginLeft="18dp"
                     android:layout_marginTop="10dp"
-                    />
+                    android:src="@drawable/pic_settings"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="60dp"
+                    android:layout_marginLeft="63dp"
                     android:text="设置"
                     android:textSize="18sp" />
             </RelativeLayout>
@@ -166,13 +167,14 @@
                 android:background="#1A000000"
                 android:layout_marginTop="5dp"/>
         </LinearLayout>
+
         <Button
             android:id="@+id/btn_quit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#00000000"
             android:text="退出登录"
-            android:textColor="#000000"
+            android:textColor="#FF0000"
             android:textSize="18sp" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 

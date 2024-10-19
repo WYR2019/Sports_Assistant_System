@@ -3,18 +3,14 @@ package com.example.sports_assistant_system;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.sports_assistant_system.Fragments.DevicesFragment;
 import com.example.sports_assistant_system.Fragments.RecordsFragment;
 import com.example.sports_assistant_system.Fragments.Sports.SportsFragment;
-import com.example.sports_assistant_system.Fragments.AccountsFragment;
+import com.example.sports_assistant_system.Fragments.Accounts.AccountsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {

@@ -23,6 +23,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sports_Assistant_System"
         tools:targetApi="31">
+        <activity
+            android:name=".Fragments.Accounts.SettingsActivity"
+            android:exported="false" />
 
         <service android:name="com.amap.api.location.APSService" />
 
@@ -48,7 +51,6 @@
         <activity
             android:name=".Login.ChangePasswordActivity"
             android:exported="true" />
-
         <activity
             android:name=".Login.LoginbyTnumberActivity"
             android:exported="true" />

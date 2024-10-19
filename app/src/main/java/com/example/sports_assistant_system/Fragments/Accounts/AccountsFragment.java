@@ -1,4 +1,4 @@
-package com.example.sports_assistant_system.Fragments;
+package com.example.sports_assistant_system.Fragments.Accounts;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,8 +16,8 @@ import com.example.sports_assistant_system.R;
 
 public class AccountsFragment extends Fragment implements View.OnClickListener{
 
-    private Button btQuit;
-    private RelativeLayout rlSetting;
+    private Button btnQuit;
+    private RelativeLayout rlSettings;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -29,13 +29,10 @@ public class AccountsFragment extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_accounts, container, false);
+        View view = inflater.inflate(R.layout.fragment_accounts, container, false);
+        Init(view);
+        return view;
     }
-
-
-
-
-
 
     @Override
     public void onClick(View v) {
@@ -43,15 +40,15 @@ public class AccountsFragment extends Fragment implements View.OnClickListener{
             Intent Intent_quit = new Intent(getActivity(), LoginActivity.class);
             startActivity(Intent_quit);
         }else if (v.getId()==R.id.btn_setting){
-            Intent Intent_setting = new Intent(getActivity(), SettingActivity.class);
+            Intent Intent_setting = new Intent(getActivity(), SettingsActivity.class);
             startActivity(Intent_setting);
         }
     }
 
     public void Init(View view){
-        btQuit = view.findViewById(R.id.btn_quit);
-        btQuit.setOnClickListener(this);
-        rlSetting = view.findViewById(R.id.btn_setting);
-        rlSetting.setOnClickListener(this);
+        btnQuit = view.findViewById(R.id.btn_quit);
+        btnQuit.setOnClickListener(this);
+        rlSettings = view.findViewById(R.id.btn_setting);
+        rlSettings.setOnClickListener(this);
     }
 }
