@@ -40,8 +40,8 @@ public class RegisterActivity extends AppCompatActivity {
 
     @Override
     protected void onStart() {
-        dbOpenHelperRegister = new DBOpenHelper(this);
         super.onStart();
+        dbOpenHelperRegister = new DBOpenHelper(this);
     }
 
     private void Init() {
