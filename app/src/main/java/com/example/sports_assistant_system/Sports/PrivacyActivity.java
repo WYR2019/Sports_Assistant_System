@@ -1,4 +1,4 @@
-package com.example.sports_assistant_system.Fragments.Sports;
+package com.example.sports_assistant_system.Sports;
 
 import android.app.Application;
 import android.content.Context;

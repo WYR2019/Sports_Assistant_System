@@ -1,4 +1,4 @@
-package com.example.sports_assistant_system.Fragments.Sports.Weather.Bean;
+package com.example.sports_assistant_system.Sports.Weather.Bean;
 
 public class WeatherBean {
     private String date;

@@ -1,4 +1,4 @@
-package com.example.sports_assistant_system.Fragments.Accounts;
+package com.example.sports_assistant_system.Accounts;
 
 import android.os.Bundle;
 

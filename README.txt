@@ -12,7 +12,8 @@
    implementation ("com.squareup.okhttp3:okhttp:4.8.1")
    implementation ("com.squareup.okio:okio:2.2.2")
    implementation ("com.google.code.gson:gson:2.8.5")
-
+5、ViewPager2：
+    implementation ("androidx.viewpager2:viewpager2:1.0.0-alpha02")
 Android Manifest需要配置的内容：
 1、声明高德地图服务
     <service android:name="com.amap.api.location.APSService"></service>

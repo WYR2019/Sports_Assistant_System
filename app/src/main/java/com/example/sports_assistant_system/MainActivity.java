@@ -9,8 +9,8 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.example.sports_assistant_system.Fragments.DevicesFragment;
 import com.example.sports_assistant_system.Fragments.RecordsFragment;
-import com.example.sports_assistant_system.Fragments.Sports.SportsFragment;
-import com.example.sports_assistant_system.Fragments.Accounts.AccountsFragment;
+import com.example.sports_assistant_system.Fragments.SportsFragment;
+import com.example.sports_assistant_system.Fragments.AccountsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {

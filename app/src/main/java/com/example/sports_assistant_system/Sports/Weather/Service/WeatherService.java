@@ -1,6 +1,6 @@
-package com.example.sports_assistant_system.Fragments.Sports.Weather.Service;
+package com.example.sports_assistant_system.Sports.Weather.Service;
 
-import com.example.sports_assistant_system.Fragments.Sports.Weather.Bean.WeatherResultBean;
+import com.example.sports_assistant_system.Sports.Weather.Bean.WeatherResultBean;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

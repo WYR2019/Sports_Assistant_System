@@ -5,11 +5,11 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.Accounts.SettingsActivity">
+    tools:context=".Accounts.SettingsActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="功能正在开发" />
-    
+
 </androidx.appcompat.widget.LinearLayoutCompat>

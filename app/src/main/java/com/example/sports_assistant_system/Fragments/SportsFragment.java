@@ -1,4 +1,4 @@
-package com.example.sports_assistant_system.Fragments.Sports;
+package com.example.sports_assistant_system.Fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,8 +15,8 @@ import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationClient;
 import com.amap.api.location.AMapLocationClientOption;
 import com.amap.api.location.AMapLocationListener;
-import com.example.sports_assistant_system.Fragments.Sports.Weather.Bean.WeatherResultBean;
-import com.example.sports_assistant_system.Fragments.Sports.Weather.Listener.WeatherListener;
+import com.example.sports_assistant_system.Sports.Weather.Bean.WeatherResultBean;
+import com.example.sports_assistant_system.Sports.Weather.Listener.WeatherListener;
 import com.example.sports_assistant_system.R;
 
 /**

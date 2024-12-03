@@ -1,9 +1,9 @@
-package com.example.sports_assistant_system.Fragments.Sports.Weather.Model;
+package com.example.sports_assistant_system.Sports.Weather.Model;
 
-import com.example.sports_assistant_system.Fragments.Sports.Weather.Bean.WeatherResultBean;
-import com.example.sports_assistant_system.Fragments.Sports.Weather.Interface.WeatherInterface;
-import com.example.sports_assistant_system.Fragments.Sports.Weather.Listener.WeatherListener;
-import com.example.sports_assistant_system.Fragments.Sports.Weather.Service.WeatherService;
+import com.example.sports_assistant_system.Sports.Weather.Bean.WeatherResultBean;
+import com.example.sports_assistant_system.Sports.Weather.Interface.WeatherInterface;
+import com.example.sports_assistant_system.Sports.Weather.Listener.WeatherListener;
+import com.example.sports_assistant_system.Sports.Weather.Service.WeatherService;
 
 import retrofit2.Call;
 import retrofit2.Callback;

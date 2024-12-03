@@ -1,4 +1,4 @@
-package com.example.sports_assistant_system.Fragments.Accounts;
+package com.example.sports_assistant_system.Fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
+import com.example.sports_assistant_system.Accounts.SettingsActivity;
 import com.example.sports_assistant_system.Login.LoginActivity;
 import com.example.sports_assistant_system.R;
 

@@ -24,7 +24,7 @@
         android:theme="@style/Theme.Sports_Assistant_System"
         tools:targetApi="31">
         <activity
-            android:name=".Fragments.Accounts.SettingsActivity"
+            android:name=".Accounts.SettingsActivity"
             android:exported="false" />
 
         <service android:name="com.amap.api.location.APSService" />

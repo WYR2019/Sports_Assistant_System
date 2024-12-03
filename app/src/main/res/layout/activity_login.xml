@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="30dp"
-            android:text="密码登录"
+            android:text="欢迎使用APP"
             android:textSize="30dp"/>
     </LinearLayout>
 
